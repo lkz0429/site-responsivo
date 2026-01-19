@@ -1,9 +1,23 @@
 body {
-    margin: 5px;
+    margin: 0px;
     background-color: cyan;
 }
 #titulo {
-    margin: 0px;
-    height: 100px;
+    position: relative;
+    top: 80px;
+    margin: 80px;
+    height: 200px;
     background-color: blue;
+}
+#borda { 
+    position: relative;
+    top: 0px;
+    margin: 20px;
+    height: 350px;
+    background-color: black;
+}
+#Clash-title {
+    height:200px;
+    position: relative;
+    left: 700px;
 }
