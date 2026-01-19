@@ -1,23 +1,15 @@
 body {
     margin: 0px;
-    background-color: cyan;
+    background-color: rgb(102, 62, 2);
 }
 #titulo {
-    position: relative;
-    top: 80px;
-    margin: 80px;
     height: 200px;
+    width: 1750px;
+    margin: 80px;
     background-color: blue;
-}
-#borda { 
-    position: relative;
-    top: 0px;
-    margin: 20px;
-    height: 350px;
-    background-color: black;
+    display: flex;
+    justify-content: center;
 }
 #Clash-title {
     height:200px;
-    position: relative;
-    left: 700px;
 }
