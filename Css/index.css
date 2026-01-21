@@ -1,15 +1,114 @@
 body {
     margin: 0px;
-    background-color: rgb(102, 62, 2);
+    background-color: rgba(6, 15, 136, 0.959);
 }
 #titulo {
     height: 200px;
     width: 1750px;
-    margin: 80px;
-    background-color: blue;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: rgb(152, 168, 6);
     display: flex;
     justify-content: center;
+    border: 5px black solid;
+    border-radius: 25px;
 }
 #Clash-title {
     height:200px;
 }
+#menu-1 {
+    width: 1600px;
+    height: 250px;
+    margin: 80px;
+    background-color: rgb(152, 168, 6);
+    display: flex;
+    justify-content: center;
+    border: 5px black solid;
+    border-radius: 25px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+#menu-2 {
+    width: 1600px;
+    height: 250px;
+    margin: 80px;
+    background-color: rgb(152, 168, 6);
+    display: flex;
+    justify-content: center;
+    border: 5px black solid;
+    border-radius: 25px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+#menu-3 {
+    width: 1600px;
+    height: 250px;
+    margin: 80px;
+    background-color: rgb(152, 168, 6);
+    display: flex;
+    justify-content: center;
+    border: 5px black solid;
+    border-radius: 25px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+#menu-4 {
+    width: 1600px;
+    height: 250px;
+    margin: 80px;
+    background-color: rgb(152, 168, 6);
+    display: flex;
+    justify-content: center;
+    border: 5px black solid;
+    border-radius: 25px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+#menu-5 {
+    width: 1600px;
+    height: 250px;
+    margin: 80px;
+    background-color: rgb(152, 168, 6);
+    display: flex;
+    justify-content: center;
+    border: 5px black solid;
+    border-radius: 25px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+#menu-6 {
+    width: 1600px;
+    height: 250px;
+    margin: 80px;
+    background-color: rgb(152, 168, 6);
+    display: flex;
+    justify-content: center;
+    border: 5px black solid;
+    border-radius: 25px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+#rodapé {
+    height: 200px;
+    width: 1750px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(152, 168, 6);
+    display: flex;
+    justify-content: center;
+    border: 5px black solid;
+    border-radius: 25px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#coroa-img {
+    height: 250px;
+    width: 200px;
+}
+body {
+    border: 50px black solid;
+    
+}
+
