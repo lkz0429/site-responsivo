@@ -1,21 +1,43 @@
 body {
     margin: 0px;
-    background-color: rgba(6, 15, 136, 0.959);
+    background-image: linear-gradient(to top, #004173, #0cb7f2);
+
+/* CABEÇALHO */
+
 }
 #titulo {
     height: 200px;
-    width: 1750px;
+    width: 1470px;
     margin-left: 20px;
-    margin-top: 50px;
-    background-color: rgb(152, 168, 6);
+    background-color: rgb(23, 11, 191);
     display: flex;
     justify-content: center;
     border: 5px black solid;
     border-radius: 25px;
+    position: absolute;
+    top: 25px;
 }
+
+#borda_titulo {
+    background-color: black;
+    height: 260px;
+    position: relative;
+}
+
 #Clash-title {
     height:200px;
 }
+
+/* CONTEÚDO PRINCIPAL */
+
+nav {
+    background-color: white;
+    width: 1270px;
+    border-radius: 25px;
+    position: relative;
+    left: 130px;
+}
+
 #menu-1 {
     width: 1600px;
     height: 250px;
@@ -107,8 +129,3 @@ body {
     height: 250px;
     width: 200px;
 }
-body {
-    border: 50px black solid;
-    
-}
-
