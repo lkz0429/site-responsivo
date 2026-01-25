@@ -1,9 +1,9 @@
 body {
     margin: 0px;
     background-image: linear-gradient(to top, #004173, #0cb7f2);
-
-/* CABEÇALHO */
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 #titulo {
     height: 200px;
@@ -17,127 +17,130 @@ body {
     position: absolute;
     top: 25px;
 }
-
 #borda_titulo {
     background-color: black;
     height: 260px;
-    position: relative;
+    display: flex;
+    justify-content: center;
 }
-
 #Clash-title {
     height:200px;
 }
-
-/* CONTEÚDO PRINCIPAL */
-
 nav {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.575);
     width: 1270px;
     height: 1000px;
     border-radius: 25px;
-    position: relative;
-    left: 130px;
+    margin-top: 50px;
+    margin-left:270px;
+    display: flex;
 }
-
 #menu-1 {
     width: 550px;
     height: 250px;
-    margin: 80px;
+    margin: 40px;
     background-image: linear-gradient(to bottom, #f3e387, #fed71c);
     display: flex;
     justify-content: center;
     border: 5px black solid;
+    border-radius:20px;
     font-size: 50px;
     font-family: fantasy;
-    position: absolute;
-    left: -20px;
-    top: -30px;
     
 }
 #menu-2 {
     width: 550px;
     height: 250px;
-    margin: 80px;
+    margin: 40px;
     background-image: linear-gradient(to bottom, #f3e387, #fed71c);
     display: flex;
     justify-content: center;
     border: 5px black solid;
+    border-radius:20px;
     font-size: 50px;
     font-family: fantasy;
-    position: relative;
-    left: 570px;
-    top: 50px;
 }
 #menu-3 {
     width: 550px;
     height: 250px;
-    margin: 80px;
+    margin: 40px;
     background-image: linear-gradient(to bottom, #f3e387, #fed71c);
     display: flex;
     justify-content: center;
     border: 5px black solid;
+    border-radius:20px;
     font-size: 50px;
     font-family: fantasy;
-    position: absolute;
-    left: -20px;
-    bottom: 290px;
 }
-
 #menu-4 {
     width: 550px;
     height: 250px;
-    margin: 80px;
+    margin: 40px;
     background-image: linear-gradient(to bottom, #f3e387, #fed71c);
     display: flex;
     justify-content: center;
     border: 5px black solid;
+    border-radius:20px;
     font-size: 50px;
     font-family: fantasy;
-    position: relative;
-    left: 570px;
-    top: 30px;
 }
-
 #menu-5 {
     width: 550px;
     height: 250px;
-    margin: 80px;
+    margin: 40px;
     background-image: linear-gradient(to bottom, #f3e387, #fed71c);
     display: flex;
     justify-content: center;
     border: 5px black solid;
+    border-radius:20px;
     font-size: 50px;
     font-family: fantasy;
-    position: absolute;
-    bottom: -30px;
-    left: -20px;
 }
 #menu-6 {
     width: 550px;
     height: 250px;
-    margin: 80px;
+    margin: 40px;
     background-image: linear-gradient(to bottom, #f3e387, #fed71c);
     display: flex;
     justify-content: center;
     border: 5px black solid;
+    border-radius:20px;
     font-size: 50px;
     font-family: fantasy;
+
+}
+#coluna-1 {
     position: relative;
-    left: 570px;
-    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+#coluna-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.balao {
+    height: 250px;
+    width: 250px;
 }
 #rodapé {
     height: 200px;
     width: 1750px;
     margin-left: 20px;
     margin-bottom: 50px;
-    background-color: rgba(255, 217, 0, 0.855);
+    background-color: rgb(23, 11, 191);
     display: flex;
     justify-content: center;
     border: 5px black solid;
     border-radius: 25px;
     font-size: 30px;
-    font-family: sans-serif;
+    font-family: arial;
+    margin-top: 80px;
+    margin-left: 70px;
 }
 #coroa-img {
     height: 250px;
