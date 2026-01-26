@@ -176,8 +176,46 @@ a:hover::after {
     background-color: white;
     width: 1070px;
     height: 800px;
+    padding-left: 8px;
     margin-left: 100px;
     margin-top: 100px;
     border-radius: 20px;
 
+}
+
+/* PÁGINA DAS CARTAS */
+
+p {
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p.para_anti_aereas {
+    position: relative;
+    top: 210px;
+}
+
+p.para_tanques {
+    position: relative;
+    top: 220px;
+}
+
+p.para_terrestres {
+    position: relative;
+    top: 200px;
+}
+
+p.para_anti_tanque {
+    position: relative;
+    top: 180px;
+}
+
+p.para_aereas {
+    position: relative;
+    top: 210px;
+}
+
+p.para_mecanicas {
+    position: relative;
+    top: 60px;
 }
